@@ -8,7 +8,7 @@
 //	Description		|	It is used to calculate the factorial of given number.
 //	Input			|	An integer 
 //	Return value		| 	An integer			
-//	Date			|   1st July 2022
+//	Date			|   	1st July 2022
 //	Author 			|	Manthan Kallure	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
@@ -28,7 +28,7 @@ int factorial(int iNo)
 //	Description		|	It is used to power of 2.
 //	Input			|	An integer 
 //	Return value		| 	An integer			
-//	Date			|   1st July 2022
+//	Date			|   	1st July 2022
 //	Author 			|	Manthan Kallure	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
@@ -50,7 +50,7 @@ int power(int iNo)
 //	Description		|	It is print the decreasing count of given number upto 1.
 //	Input			|	An integer 
 //	Return value		| 	void			
-//	Date			|   2nd July 2022
+//	Date			|   	2nd July 2022
 //	Author 			|	Manthan Kallure	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
@@ -69,7 +69,7 @@ void countD(int iNo)
 //	Description		|	It is print the incresing count of given number upto n.
 //	Input			|	An integer 
 //	Return value		| 	void			
-//	Date			|   2nd July 2022
+//	Date			|   	2nd July 2022
 //	Author 			|	Manthan Kallure	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
@@ -89,7 +89,7 @@ void countA(int iNo)
 //	Description		|	It is used to calculate the power of given number to given exponent.
 //	Input			|	An integer,integer 
 //	Return value		| 	integer			
-//	Date			|   2nd July 2022
+//	Date			|   	2nd July 2022
 //	Author 			|	Manthan Kallure	
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
