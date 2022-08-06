@@ -1,0 +1,76 @@
+#include "Header.h"
+
+void print(set<string> st)
+{
+    for(auto it = st.begin();it!= st.end();it++)
+    {
+        cout<<*it<<endl;
+    }
+}
+
+int main()
+{
+    unordered_set<string> st;
+
+/*    st.insert("man");   //o(1)
+    st.insert("abc");
+    st.insert("xyz");
+    st.insert("lmn");
+    st.insert("xyz");   //It also contains only unique elements in an sequential manner 
+
+    auto it = st.find("xyz");   //O(1)   #define auto set<string> :: iterator it; 
+    cout<<"Before erase : ";
+    print(st);
+    // if(it!=st.end())
+    // {
+    //     st.erase(it);
+    // } 
+
+    cout<<"After erase : "<<endl;
+    st.erase("man");
+    print(st);
+    */
+   int iNo = 0;
+   cout<<"Enter the number of elements : ";
+   cin>>iNo;
+   for(int i = 0;i<iNo;i++)
+   {
+        string str;
+        cin>>str;
+        st.insert(str);
+   }
+
+    cout<<"Elements are : "<<endl;
+  for(auto value : st)
+  {
+    cout<< value <<endl;
+  }  
+
+    string str;
+    cout<<"Enter the element to check : "<<endl;
+    cin>>str;
+
+    if(st.find(str) == st.end())
+        {
+            cout<<"No it is not present\n";
+        }
+        else
+        {
+            cout<<"Yes it is presen\n";
+        }
+
+    return 0;
+}
+
+/*
+faster than set
+Internally uses Hash table
+Elements in set are immutable i.e they are constant
+Datatypes Allowed:  Primitive,string
+Datatypes NAllowed:  Containers  
+Insert,Read/Find,Delete/Erase --> O(1);
+
+For more info refer to following site:
+https://cplusplus.com/reference/stl/
+
+*/
